@@ -1,0 +1,47 @@
+13/12/2018 - 08:50:23
+cliente_id: 302
+fatura_recorrente_id: 13
+lancamento_recorrente_id: 54
+dt_vencimento: 2018-12-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141800000000001500
+------------------------------------------------------------------
+
+13/12/2018 - 08:50:24
+cliente_id: 885
+fatura_recorrente_id: 25
+lancamento_recorrente_id: 71
+dt_vencimento: 2018-12-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000766
+------------------------------------------------------------------
+
+13/12/2018 - 08:50:24
+cliente_id: 838
+fatura_recorrente_id: 28
+lancamento_recorrente_id: 73
+dt_vencimento: 2018-12-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141800000000001519
+------------------------------------------------------------------
+
+13/12/2018 - 08:50:24
+cliente_id: 863
+fatura_recorrente_id: 29
+lancamento_recorrente_id: 79
+dt_vencimento: 2018-12-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141800000000001527
+------------------------------------------------------------------
+
+
+13/12/2018 - 08:50:25
+Status: Nenhuma fatura gerada.
+------------------------------------------------------------------
+
+
+13/12/2018 - 08:52:06
+Status: Nenhuma fatura gerada.
+------------------------------------------------------------------
+
+

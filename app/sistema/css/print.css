@@ -1,0 +1,26 @@
+.print{
+	display:block;
+}
+
+.noPrint{
+	display:none;
+}
+
+.reportWrapper{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	font-size:10px;
+}
+
+.datatable-header{
+	display:none;
+}
+
+table.display tr{
+	height:10px;
+	page-break-before: always;
+}
+
+table.display td{
+	page-break-before: always; 
+}

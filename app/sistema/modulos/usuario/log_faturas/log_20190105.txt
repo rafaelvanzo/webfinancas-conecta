@@ -1,0 +1,44 @@
+05/01/2019 - 01:00:07
+cliente_id: 302
+fatura_recorrente_id: 13
+lancamento_recorrente_id: 54
+dt_vencimento: 2019-01-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141900000000000010
+------------------------------------------------------------------
+
+05/01/2019 - 01:00:07
+cliente_id: 908
+fatura_recorrente_id: 24
+lancamento_recorrente_id: 70
+dt_vencimento: 2019-01-05
+Status: Lançamento recorrente não encontrado.
+------------------------------------------------------------------
+
+05/01/2019 - 01:00:07
+cliente_id: 885
+fatura_recorrente_id: 25
+lancamento_recorrente_id: 71
+dt_vencimento: 2019-01-15
+Status: Lançamento recorrente não encontrado.
+------------------------------------------------------------------
+
+05/01/2019 - 01:00:07
+cliente_id: 838
+fatura_recorrente_id: 28
+lancamento_recorrente_id: 73
+dt_vencimento: 2019-01-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141900000000000028
+------------------------------------------------------------------
+
+05/01/2019 - 01:00:07
+cliente_id: 863
+fatura_recorrente_id: 29
+lancamento_recorrente_id: 79
+dt_vencimento: 2019-01-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141800000000001446
+------------------------------------------------------------------
+
+

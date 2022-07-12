@@ -1,0 +1,10 @@
+26/10/2018 - 01:00:07
+cliente_id: 843
+fatura_recorrente_id: 23
+lancamento_recorrente_id: 69
+dt_vencimento: 2018-11-05
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000499
+------------------------------------------------------------------
+
+

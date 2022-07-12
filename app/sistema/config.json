@@ -1,0 +1,25 @@
+{
+  "DbConexao": {
+    "Wf": {
+      "host": "mysql.webfinancas.com",
+      "usuario": "webfinancas",
+      "senha": "W2BSISTEMAS",
+      "db": "webfinancas"
+    },
+    "W2b": {
+      "host": "mysql.web2business.com.br",
+      "usuario": "web2business",
+      "senha": "W2BSISTEMAS",
+      "db": "web2business"
+    },
+    "WfVmSistemas": {
+      "host": "mysql.webfinancas.com",
+      "usuario": "webfinancas02",
+      "senha": "W2BSISTEMAS",
+      "db": "webfinancas02"
+    }
+  },
+  "ContaFinanceiraVmSistemas": {
+    "Id": 8
+  }
+}

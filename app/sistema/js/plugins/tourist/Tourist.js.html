@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://easelinc.github.io/tourist/ -->
+<html class="wf-myriadpro-n4-active wf-myriadpro-n6-active wf-myriadpro-n7-active wf-proximanova-n3-active wf-proximanova-n4-active wf-proximanova-n6-active wf-proximanova-n7-active wf-proximanova-n8-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Tourist.js</title>
+
+  <link href="javascripts\bootstrap.min.css" rel="stylesheet">
+ 
+
+
+  <script src="javascripts\underscore-1.4.4.js"></script>
+  <script src="javascripts\backbone-1.0.0.js"></script>
+
+
+  <!-- Uses JQUI for the effects only :/ -->
+  <script src="javascripts\jquery-ui-1.10.2.custom.js"></script>
+
+  <script src="tourist.js"></script>
+  <link rel="stylesheet" href="tourist.css" type="text/css" media="screen">
+
+
+
+  <!-- Tour js is defined here -->
+  <script type="text/javascript">
+
+  TOURS = {
+
+    tour1: function (){
+      var steps = [{
+        content: '<p>Primeiro preencha o nome do lançamento.</p>',
+        highlightTarget: true,
+        nextButton: true,
+        target: $('#thing1'),
+        my: 'bottom center',
+        at: 'top center'
+      }, {
+        content: '<p>Depois clique em salvar</p>',
+        highlightTarget: true,
+        nextButton: true,
+        target: $('#thing2'),
+        my: 'bottom center',
+        at: 'top center'
+      }]
+
+      var tour = new Tourist.Tour({
+        steps: steps,
+        tipClass: 'Bootstrap',
+        tipOptions:{ showEffect: 'slidein' }
+      });
+      tour.start();
+      return tour;
+    }	//, // end tour1
+  }
+
+   $(function(){
+
+    $('.btn-run-example').click(function(e){
+      var btn = $(e.target);
+      var tour = TOURS[btn.attr('data-tour')]();
+/*
+     btn.prop('disabled', true)
+      tour.bind('stop', function(){
+        btn.prop('disabled', false)
+      }); 
+*/
+      return false;
+    });
+ });
+  </script>
+
+</head>
+<body >
+
+<br>
+<br><br><br><br><br><br>
+
+  <div class="container">
+    <section>
+      <div class="row" id="tour1"><span class="explanation col-md-5">
+        
+      <p><button class="btn btn-info btn-run-example" data-tour="tour1">Run this example</button></p>
+
+        <div class="example">
+          <div id="thing1" class="tour-block">Hey look at me!</div>
+          <div id="thing2" class="tour-block last">No look at me!</div>
+          <div style="clear: both"></div>
+        </div>
+      </span></div>
+    </section>
+
+
+    
+  </div>
+
+
+
+
+
+</body></html>

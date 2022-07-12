@@ -1,0 +1,45 @@
+Log ALteração Template
+
+====== JS ======
+1) Theme.js
+
+logoPaddingTop = parseInt(logo.attr("data-sticky-padding") ? logo.attr("data-sticky-padding") : "32"), /* <-- paddingTop logo 28 */
+logoSmallWidth = parseInt(logo.attr("data-sticky-width") ? logo.attr("data-sticky-width") : "224"),  /* <-- largura logo 82 */
+logoSmallHeight = parseInt(logo.attr("data-sticky-height") ? logo.attr("data-sticky-height") : "79"); /* <-- altura logo 40 */ 
+
+====== CSS ======
+1) Theme.css
+
+header h1.logo img {
+
+	width: 224px; /* <-- Adicionei largura no tamanho da imagem da logo */
+}
+
+/* Footer */
+footer {
+	background: #f5f5f5;	/* background: #121214; */
+	border-top: 1px solid #CCC; /* 	border-top: 4px solid #1F1F1F; */
+	padding: 20px 0 0; /* diminuindo o tamanho do rodape 80px 0 0; */
+
+}
+
+
+footer h5 {
+	color: #0088cc; /* color: #CCC !important; */ 
+}
+
+footer div.container div.row > div {
+/*	margin-bottom: 25px; */
+}
+
+/* Page Top */
+section.page-top {
+	background-color: #F5F5F5; /* #171717 */
+	border-bottom: 1px solid #CCC; /* border-bottom: 5px solid #CCC; */
+	border-top: 1px solid #CCC; /* border-top: 5px solid #384045 */
+}
+
+section.page-top h2 {
+	color: #0088cc; /* color: #FFF; */
+}
+

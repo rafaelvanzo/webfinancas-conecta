@@ -1,0 +1,90 @@
+
+
+
+12/03/2018 - 09:03:37
+cliente_id: 214
+fatura_recorrente_id: 22
+lancamento_recorrente_id: 65
+dt_vencimento: 2018-03-12
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000383
+------------------------------------------------------------------
+
+
+12/03/2018 - 09:16:35
+cliente_id: 214
+fatura_recorrente_id: 22
+lancamento_recorrente_id: 65
+dt_vencimento: 2018-04-12
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000391
+------------------------------------------------------------------
+
+
+12/03/2018 - 09:36:05
+cliente_id: 214
+fatura_recorrente_id: 22
+lancamento_recorrente_id: 65
+dt_vencimento: 2018-05-12
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000405
+------------------------------------------------------------------
+
+
+12/03/2018 - 13:14:19
+cliente_id: 214
+fatura_recorrente_id: 22
+lancamento_recorrente_id: 65
+dt_vencimento: 2018-03-12
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000405
+------------------------------------------------------------------
+
+
+12/03/2018 - 13:19:19
+cliente_id: 214
+fatura_recorrente_id: 22
+lancamento_recorrente_id: 65
+dt_vencimento: 2018-03-13
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000405
+------------------------------------------------------------------
+
+
+12/03/2018 - 13:38:55
+cliente_id: 302
+fatura_recorrente_id: 13
+lancamento_recorrente_id: 54
+dt_vencimento: 2018-03-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000413
+------------------------------------------------------------------
+
+12/03/2018 - 13:38:55
+cliente_id: 885
+fatura_recorrente_id: 25
+lancamento_recorrente_id: 71
+dt_vencimento: 2018-03-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000162
+------------------------------------------------------------------
+
+12/03/2018 - 13:38:55
+cliente_id: 838
+fatura_recorrente_id: 28
+lancamento_recorrente_id: 73
+dt_vencimento: 2018-03-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000421
+------------------------------------------------------------------
+
+12/03/2018 - 13:38:56
+cliente_id: 863
+fatura_recorrente_id: 29
+lancamento_recorrente_id: 79
+dt_vencimento: 2018-03-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000430
+------------------------------------------------------------------
+
+

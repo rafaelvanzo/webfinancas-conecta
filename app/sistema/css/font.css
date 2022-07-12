@@ -1,0 +1,94 @@
+
+/* === Icomoon font icons === */
+
+@font-face {
+	font-family: 'IcoMoon';
+	src: url('font/icomoon.eot');
+	src: url('font/icomoon.eot?#iefix') format('embedded-opentype'),
+			url('font/icomoon.svg#IcoMoon') format('svg'),
+			url('font/icomoon.woff') format('woff'),
+			url('font/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Add the following classes to your stylesheet if you want to use data attributes for inserting your icons */
+.iconb:before, .icona:after { font-family: 'IcoMoon'; content: attr(data-icon); }
+.whead .iconb { margin: 2px 0 0 0; display: block; float:left; }
+.iconb, .iconb:hover { font-weight: normal; }
+[class*="button"]  [class*="icon-"]  { margin: 0px 0 -1px -2px;	float:left;  display: block; font-size: 14px; font-weight: normal; } 
+[class*="button"] .dropdown-menu li a [class*="icon"] { margin-left: 0; }
+
+/* Add the following CSS properties to your stylesheet if you want to have a class per icon */
+[class^="icon-"], [class*=" icon-"] { font-family: 'IcoMoon'; font-style: normal; vertical-align: text-top; line-height: 14px; margin-right: 10px; font-weight: normal; }
+.pageTitle > [class^="icon-"], .pageTitle > [class*=" icon-"] { line-height: 16px; font-size: 16px; }
+.dropdown-menu [class^="icon-"], .dropdown-menu [class*=" icon-"] { font-size: 12px; font-weight: normal; }
+
+.icon-home:before { content: "\e000"; }
+.icon-home-2:before { 	content: "\e001"; }
+.icon-newspaper:before { content: "\e002"; }
+.icon-pencil:before { content: "\e003"; }
+.icon-pencil-2:before { content: "\e004"; }
+.icon-picture:before { content: "\e005"; }
+.icon-picture-2:before { content: "\e006"; }
+.icon-camera:before { content: "\e007"; }
+.icon-music:before { content: "\e008"; }
+.icon-play:before { content: "\e009"; }
+.icon-film:before { content: "\e00a"; }
+.icon-camera-2:before { content: "\e00b"; }
+.icon-spades:before { content: "\e00c"; }
+.icon-clubs:before { content: "\e00d"; }
+.icon-diamonds:before { content: "\e00e"; }
+.icon-broadcast:before { content: "\e00f"; }
+.icon-microphone:before { content: "\e010"; }
+.icon-book:before { content: "\e011"; }
+.icon-paper:before { content: "\e012"; }
+.icon-paper-2:before { content: "\e013"; }
+.icon-new:before { content: "\e014"; }
+.icon-copy:before { content: "\e015"; }
+.icon-folder:before { content: "\e016"; }
+.icon-folder-2:before { content: "\e017"; }
+.icon-tag:before { content: "\e018"; }
+.icon-cart:before { content: "\e019"; }
+.icon-basket:before { content: "\e01a"; }
+.icon-calculate:before { content: "\e01b"; }
+.icon-support:before { content: "\e01c"; }
+.icon-phone:before { content: "\e01d"; }
+.icon-mail:before { content: "\e01e"; }
+.icon-location:before { content: "\e01f"; }
+.icon-compass:before { content: "\e020"; }
+.icon-history:before { content: "\e021"; }
+.icon-clock:before { content: "\e022"; }
+.icon-bell:before { content: "\e023"; }
+.icon-bell-2:before { content: "\e024"; }
+.icon-bell-3:before { content: "\e025"; }
+.icon-calender:before { content: "\e026"; }
+.icon-mouse:before { content: "\e027"; }
+.icon-screen:before { content: "\e028"; }
+.icon-laptop:before { content: "\e029"; }
+.icon-mobile:before { content: "\e02a"; }
+.icon-tablet:before { content: "\e02b"; }
+.icon-mobile-2:before { content: "\e02c"; }
+.icon-drawer:before { content: "\e02d"; }
+.icon-drawer-2:before { content: "\e02e"; }
+.icon-box-add:before { content: "\e02f"; }
+.icon-box-remove:before { content: "\e030"; }
+.icon-database:before { content: "\e031"; }
+.icon-undo:before { content: "\e032"; }
+.icon-redo:before { content: "\e033"; }
+.icon-forward:before { content: "\e034"; }
+.icon-reply:before { content: "\e035"; }
+.icon-reply-2:before { content: "\e036"; }
+.icon-comments:before { content: "\e037"; }
+.icon-comments-2:before { content: "\e038"; }
+.icon-comments-3:before { content: "\e039"; }
+.icon-comments-4:before { content: "\e03a"; }
+.icon-comments-5:before { content: "\e03b"; }
+.icon-comments-6:before { content: "\e03c"; }
+.icon-user:before { content: "\e03d"; }
+.icon-user-2:before { content: "\e03e"; }
+.icon-user-3:before { content: "\e03f"; }
+.icon-busy:before { content: "\e040"; }
+.icon-loading:before { content: "\e041"; }
+.icon-loading-2:before { content: "\e042"; }
+.icon-search:before { content: 

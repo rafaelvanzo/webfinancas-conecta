@@ -1,0 +1,410 @@
+#boleto{
+			width: 666px;
+			font-family: 'Arial Narrow';
+			font-size: 12px;
+			margin-left: auto;
+			margin-right: auto;
+}
+.cut {
+			width: 666px;
+			margin: 0px auto;
+			border-bottom: 1px dotted navy; /* dashed */
+		}
+
+.cut p {
+			font-family: 'Arial Narrow';
+			margin: 0 0 5px 0;
+			padding: 0px;
+			font-size: 9px;
+			color: black; /*color: navy;*/
+}
+
+.cp{
+			font-family: Arial;
+			font-size: 11px;
+			text-align: right;
+
+}
+
+.field_cod_banco{
+			text-align: center;
+			font-size: 14px;
+			font-weight: bold;
+			color: black; /*color: navy;*/
+			/*padding: 5px 0 5px 0;*/
+			border-right: 1.3px solid black;/*border-right: 1.3px solid navy;*/
+			border-left: 1.3px solid black;/*border-left: 1.3px solid navy;/*/
+}
+
+.linha_digitavel{
+			width: 464px;
+			text-align: right;
+			font-size: 14px; 
+			font-weight: 800;
+			color: black; /*color: navy;*/
+}
+
+.linhaTitulo{
+			width: 666px;
+			border-bottom: 1px solid black;/*border-bottom: 2px solid navy;*/
+			/*padding-bottom: 2px;*/
+			font-family: 'Arial Narrow';
+			font-size: 9px;
+			color: black; /*color: navy;*/
+}
+
+.linha{
+			width: 666px;
+			border-bottom: 1px solid black;  /* navy */
+}
+
+.bordaArredondada{
+			width: 666px;
+			border: 1px solid #999; 
+			border-radius: 5px;
+}
+
+.linha tr{
+	/*padding-top: 5px;*/
+	/*padding-bottom: 2px;*/
+}
+
+.titulos td{
+			height: 13px;
+			font-family: 'Arial Narrow';
+			font-size: 9px;
+			color: black; /*color: navy;*/
+			padding-left: 2px;
+			/*margin-top: 5px;*/
+}
+
+.campos td {
+			font-family: 'Arial Narrow';
+			height: 12px;
+			font-size: 10px;
+			color: black; /*color: #333;*/
+			padding-left: 2px;
+}
+
+.titulos{
+			float:left;
+			width: 100%;
+			font-family: 'Arial Narrow';
+			font-size: 9px;
+			color: black; /*color: navy;*/
+			border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+			font-weight: none;
+}
+
+.titulosInstrucoes{
+			font-family: 'Arial Narrow';
+			font-size: 9px;
+			color: black; /*color: navy;*/
+			font-weight: none;
+}
+/*
+.ag_cod_cedente,
+.nosso_numero,
+.valor_doc,
+.vencimento2,
+.ag_cod_cedente2,
+.nosso_numero2,
+.xvalor,
+.valor_doc2
+{
+	text-align: right;
+} 
+
+.especie,
+.qtd,
+.vencimento,
+.especie_doc,
+.aceite,
+.carteira,
+.especie2,
+.qtd2
+{
+	text-align: center;
+}
+*/
+.cedente {
+			width: 298px;
+			border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+			padding: 0;
+}	
+		
+.valor_cobrado2 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+
+.ag_cod_cedente {
+	width: 90px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.especie {
+	width: 35px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.qtd {
+	width: 53px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.nosso_numero {
+	width: 119px; 
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.num_doc {
+	/* width: 113px; */
+	width: 117px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.contrato {
+	width: 72px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.cpf_cei_cnpj {
+	width: 132px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.vencimento {
+	width: 134px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.valor_doc {
+	/* width: 180px; */
+	width: 174px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.desconto {
+	width: 113px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.outras_deducoes {
+	width: 112px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.mora_multa {
+	width: 113px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.outros_acrescimos {
+	width: 113px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.valor_cobrado {
+	/* width: 180px; */
+	width: 176px;
+	padding-right: 5px;
+	/*background-color: #ffc ;*/
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/ 
+}
+
+.sacado {
+	width: 659px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.local_pagto {
+	width: 472px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.vencimento2 {
+	 width: 186px; 
+	/* width: 175px;*/
+	padding-right: 5px;
+	/*background-color: #ffc;*/
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.cedente2 {
+	width: 472px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.ag_cod_cedente2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.data_doc {
+	width: 93px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.num_doc2 {
+	width: 173px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.especie_doc {
+	width: 72px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.aceite {
+	width: 34px; 
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.data_process {
+	width: 72px; 
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.nosso_numero2 {
+	 width: 183px;
+	/* width: 175px; */
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.reservado {
+	width: 93px;
+	/*background-color: #ffc;*/
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.carteira {
+	width: 93px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.especie2 {
+	width: 53px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.qtd2 {
+	width: 133px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.xvalor {
+	width: 67px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.valor_doc2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+.instrucoes {
+	width: 475px;
+	padding-left: 5px;
+}
+
+.desconto2 {
+	/* width: 180px; */
+	float: left;
+	width: 175px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.outras_deducoes2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.mora_multa2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.outros_acrescimos2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.valor_cobrado2 {
+	width: 187px; 
+	/*width: 175px;*/
+	padding-right: 5px;
+	/*background-color: #ffc ;*/
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.sacado2 {
+	width: 659px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.sacador_avalista {
+	width: 659px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.sacador_avalista {
+	width: 472px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+.cod_baixa {
+	color: black; /*color: navy;*/
+	width: 186px;
+	border-left: 1.3px solid black;/*border-left: 5px solid #ffe000;*/
+}
+
+div.footer {
+			margin-bottom: 30px;
+}
+		
+div.footer p {
+	width: 120px;
+	margin: 0;
+	padding: 0;
+	padding-left: 525px;
+	font-family: 'Arial Narro';
+	font-size: 9px;
+	color: black; /*color: navy;*/
+}
+
+.last_line {
+			vertical-align: top;
+			height: 25px;
+		}
+
+.barcode {
+			width: 666px;
+			margin-bottom: 0;
+}
+
+.rodape a:link{ 
+ text-decoration:none;
+ font-weight: bold;
+} 
+.rodape{
+		font-family: 'Arial Narro';
+		font-size:10px;
+		color:#333;
+}

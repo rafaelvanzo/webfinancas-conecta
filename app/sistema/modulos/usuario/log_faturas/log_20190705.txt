@@ -1,0 +1,28 @@
+05/07/2019 - 01:00:01
+cliente_id: 302
+fatura_recorrente_id: 13
+lancamento_recorrente_id: 54
+dt_vencimento: 2019-07-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141900000000000168
+------------------------------------------------------------------
+
+05/07/2019 - 01:00:01
+cliente_id: 838
+fatura_recorrente_id: 28
+lancamento_recorrente_id: 73
+dt_vencimento: 2019-07-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141900000000000176
+------------------------------------------------------------------
+
+05/07/2019 - 01:00:01
+cliente_id: 863
+fatura_recorrente_id: 29
+lancamento_recorrente_id: 79
+dt_vencimento: 2019-07-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141800000000001446
+------------------------------------------------------------------
+
+

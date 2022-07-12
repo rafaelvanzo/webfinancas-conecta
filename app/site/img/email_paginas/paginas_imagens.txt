@@ -1,0 +1,4 @@
+php/Cadastro_ativar.php
+php/cadastro_form.php
+erro.html
+sistema/modulos/usuario/class/Usuario.class.php

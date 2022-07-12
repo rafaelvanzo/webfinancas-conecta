@@ -1,0 +1,37 @@
+05/06/2018 - 01:00:02
+cliente_id: 302
+fatura_recorrente_id: 13
+lancamento_recorrente_id: 54
+dt_vencimento: 2018-06-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000758
+------------------------------------------------------------------
+
+05/06/2018 - 01:00:03
+cliente_id: 885
+fatura_recorrente_id: 25
+lancamento_recorrente_id: 71
+dt_vencimento: 2018-06-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000766
+------------------------------------------------------------------
+
+05/06/2018 - 01:00:03
+cliente_id: 838
+fatura_recorrente_id: 28
+lancamento_recorrente_id: 73
+dt_vencimento: 2018-06-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000774
+------------------------------------------------------------------
+
+05/06/2018 - 01:00:03
+cliente_id: 863
+fatura_recorrente_id: 29
+lancamento_recorrente_id: 79
+dt_vencimento: 2018-06-15
+Status: Fatura gerada com sucesso.
+Nosso número: 241800000000000782
+------------------------------------------------------------------
+
+

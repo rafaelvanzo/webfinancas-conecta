@@ -1,0 +1,9 @@
+27/08/2018 - 01:00:09
+cliente_id: 214
+fatura_recorrente_id: 22
+lancamento_recorrente_id: 65
+dt_vencimento: 2018-09-05
+Status: Lançamento programado não encontrado.
+------------------------------------------------------------------
+
+

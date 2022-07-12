@@ -1,0 +1,100 @@
+﻿{
+  "DbConnection": 
+  {
+    "DbProducao": 
+    {
+      "Host": "mysql.webfinancas.com",
+      "Usuario": "webfinancas",
+      "Senha": "W2BSISTEMAS",
+      "Db": "webfinancas"
+    },
+    "DbW2B": 
+    {
+      "Host": "mysql.web2business.com.br",
+      "Usuario": "web2business",
+      "Senha": "W2BSISTEMAS",
+      "Db": "web2business"
+    }
+  },
+  "Utilities": 
+  {
+    "caminhoUploads": "Uploads"
+  },
+  "Layout": 
+  {
+    "Base": 
+    {
+      "urlBase": "https://agenda.webfinancas.com/",
+      "controller": "Calendario",
+      "action": "Index",
+      "title": ":: Agenda ::",
+      "logo": "logo-conecta.png",
+      "Favicon" :
+      {
+        "caminho" : "Assets/images/logo-conecta.png",
+        "imgType" : "image/png"
+      }
+    },
+    "Metadados": 
+    {
+      "description": "Agenda para médicos e dentistas integrada com sistema financeiro conectado com contabilidade",
+      "keywords": "Agenda, Médicos, Dentistas",
+      "author": "Conecta Contabilidade",
+      "robots": "All"
+    },
+    "OpenGraph": 
+    {
+      "locale": "pt_BR",
+      "type": "website",
+      "title": "WebEdit MVC",
+      "description": "CMS em MVC de sites acessíveis",
+      "url": "https://agenda.webfinancas.com/"
+    }
+  },
+  "Email": 
+  {
+    "Envio": 
+    {
+      "smtp": "smtp.web2business.com.br",
+      "smtpPorta": "587",
+      "login": "web2business@web2business.com.br",
+      "emailRemetente": "web2business@web2business.com.br",
+      "nomeRemetente": "Móduli",
+      "senha": "W2BSISTEMAS"
+    }
+  },
+  "Login": 
+  {
+    "db_tabela": "usuarios",
+    "paginaPrinicipal": "Calendario",
+    "logo": "logo-conecta.png"
+  },
+  "Menu": 
+  {
+   
+    "Item1": 
+    {
+      "nome": "Agenda",
+      "link": "Calendario",
+      "icone": "fa fa-calendar-o"
+    },
+    "Item2": 
+    {
+      "nome": "Pacientes",
+      "link": "Pacientes",
+      "icone": "fa fa-users"
+    }, 
+    "Item3": 
+    {
+      "nome": "Relatórios",
+      "link": "Relatorios",
+      "icone": "fa fa-pie-chart"
+    },
+    "Item4": 
+    {
+      "nome": "Configurações",
+      "link": "Configuracoes",
+      "icone": "fa fa-cogs"
+    }
+  }
+}

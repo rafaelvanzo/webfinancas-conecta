@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule exibirRelatorio modulos/relatorios/php/funcoes.php
+RewriteRule favExport modulos/favorecido/php/funcoes.php
+RewriteRule RemessaHistorico modulos/contador/php/funcoes.php
+RewriteRule ^([a-z]+)?\/?([0-9_-]+)?\/?([0-9])?\/?$ index.php?p=$1&id_registro=$2&retorno_ajax=$3 [NC,L]
+
+

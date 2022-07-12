@@ -1,0 +1,87 @@
+.tour-highlight{
+  /* background: transparent; */
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 241, 255, 0.701961);
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 241, 255, 0.701961);
+  -o-box-shadow: 0px 0px 7px 0px rgba(0, 241, 255, 0.701961);
+  box-shadow: 0px 0px 7px 0px rgba(0, 241, 255, 0.701961);
+  border-radius: 2px;
+}
+
+/* bootstrap styles */
+.popover{
+  padding: 0;
+}
+.popover .popover-content{
+  padding: 10px 0 0 0;
+  min-width: 200px;
+}
+.popover .popover-content p{
+  margin: 0 8px 10px 8px;
+}
+.popover .popover-content .action-label{
+  background: rgba(0, 111, 255, 0.168627);
+  font-size: 14px;
+  padding: 3px 10px;
+}
+.popover .popover-content .tour-counter{
+  margin: 0; padding: 0;
+  position: absolute;
+  left: 10px; bottom: 14px;
+  font-size: 11px;
+  color: #acacac;
+}
+.popover .tour-buttons{
+  padding: 8px 10px;
+  min-height: 28px;
+  background: #f5f5f5;
+  border-radius: 0px 0px 6px 6px;
+  box-sizing: content-box;
+}
+.popover .btn-close{
+  background: #F0F0F0;
+  border: none;
+  position: absolute;
+  top: 2px; right: 7px;
+  padding: 0;
+  opacity: .5;
+}
+.popover .btn-close:hover{
+  opacity: .5;
+}
+
+/* qtip2 styles */
+.qtip-tour, .qtip-tour .qtip-content{
+  padding: 0;
+}
+.qtip-tour .qtip-content{
+  padding-top: 10px;
+}
+.qtip-tour .qtip-content p{
+  margin: 0 8px 10px 8px;
+}
+.qtip-tour .qtip-content .action-label{
+  background: rgba(0, 111, 255, 0.168627);
+  font-size: 14px;
+  padding: 3px 10px;
+}
+.qtip-tour .qtip-content .tour-counter{
+  font-size: 11px;
+  color: #acacac;
+}
+.qtip-tour .tour-buttons{
+  padding: 8px 10px;
+  min-height: 28px;
+  background: #f5f5f5;
+  border-radius: 0px 0px 6px 6px;
+  box-sizing: content-box;
+}
+
+.tour-next {margin-top: 0;}
+
+.popover{position:absolute;top:0;left:0;z-index:1010;display:none;max-width:276px;padding:1px;text-align:left;white-space:normal;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,0.2);border-radius:6px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);box-shadow:0 5px 10px rgba(0,0,0,0.2);background-clip:padding-box}.popover.top{margin-top:-10px}.popover.right{margin-left:10px}.popover.bottom{margin-top:10px}.popover.left{margin-left:-10px}.popover-title{padding:8px 14px;margin:0;font-size:14px;font-weight:normal;line-height:18px;background-color:#f7f7f7;border-bottom:1px solid #ebebeb;border-radius:5px 5px 0 0}.popover-content{padding:9px 14px}.popover .arrow,.popover .arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.popover .arrow{border-width:11px}.popover .arrow:after{border-width:10px;content:""}.popover.top .arrow{bottom:-11px;left:50%;margin-left:-11px;border-top-color:#999;border-top-color:rgba(0,0,0,0.25);border-bottom-width:0}.popover.top .arrow:after{bottom:1px;margin-left:-10px;border-top-color:#fff;border-bottom-width:0;content:" "}.popover.right .arrow{top:50%;left:-11px;margin-top:-11px;border-right-color:#999;border-right-color:rgba(0,0,0,0.25);border-left-width:0}.popover.right .arrow:after{bottom:-10px;left:1px;border-right-color:#fff;border-left-width:0;content:" "}.popover.bottom .arrow{top:-11px;left:50%;margin-left:-11px;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,0.25);border-top-width:0}.popover.bottom .arrow:after{top:1px;margin-left:-10px;border-bottom-color:#fff;border-top-width:0;content:" "}.popover.left .arrow{top:50%;right:-11px;margin-top:-11px;border-left-color:#999;border-left-color:rgba(0,0,0,0.25);border-right-width:0}.popover.left .arrow:after{right:1px;bottom:-10px;border-left-color:#fff;border-right-width:0;content:" "}
+
+.center-block{display:block;margin-right:auto;margin-left:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}
+
+/*.glyphicon-remove:before{content:"\e014"}
+.glyphicon-remove-sign:before{content:"\e083"}*/
+/*.glyphicon-remove-circle:before{content:"\e088"}*/

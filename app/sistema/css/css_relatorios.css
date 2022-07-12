@@ -1,0 +1,270 @@
+/*@charset "utf-8";*/
+/* CSS Document */
+/* ====================
+CSS CONTAS DE CELULAR 
+Web 2 Business LTDA ME
+web2business.com.br
+04-10-2013
+======================= */
+
+	/*body { font-family: Arial, Helvetica, sans-serif; }*/
+	
+	.titulo {
+		float: left;
+		display: inline-table;
+		width: 100%;
+/*
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+*/	
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 14px;
+		font-weight:bold;
+		color: #333;
+	}
+	
+	.bordaArredondadaTitulo2 { 
+		float: right;
+		/*display: inline-table;*/
+		width: 200px; /* 216px */
+		/*border: 1px solid #999;*/
+		/*padding: 10px; */
+		/*border-radius: 5px;*/
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+	
+	.bordaArredondadaTitulo3 { 
+		float: left;
+		display: inline-block;
+		width: 335px; /* 416px */
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+	
+	.bordaArredondadaTitulo4 { 
+		float: left;
+		/*display: inline-block;*/
+		width: 445px; /* 416px */
+		/*border: 1px solid #999; */
+		/*padding: 10px; */
+		/*border-radius: 5px;*/
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+	
+	.bordaArredondadaTitulo6 { 
+		float: left;
+		display: inline-table;
+		width: 100%;
+		/*border: 1px solid #999;*/
+		padding: 10px; 
+		/*border-radius: 5px;*/
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+
+	.bordaArredondadaTitulo6 table{
+		width:100%;
+	}
+	
+	
+	.largura6 {
+		width:100%;
+	}
+	
+/* =================== horizontal ================= */
+
+	.bordaArredondadaTituloH3 { 
+		float: left;
+		display: inline-table;
+		width: 499px; /* 416px */
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+	
+	.bordaArredondadaTituloH4 { 
+		float: left;
+		display: inline-table;
+		width: 762px; /* 416px */
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}	
+	
+	.bordaArredondadaTituloH6 { 
+		float: left;
+		display: inline-table;
+		width: 100%;
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}	
+
+/*	*/
+	.spanCinza {
+		color: #666;
+	}
+	
+	.spanCinzaTB {
+		color: #666;
+		font-weight: bold;
+	}
+	
+	.linhas {
+		float: left; 		
+		display: inline-table;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 10px; 
+		color: #333;	
+		text-align: left;	
+		margin-left: 2px;
+		margin-bottom: 5px;
+	}
+	
+	table td {
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #3F3F3F;	
+		padding: 5px;
+		height: 35px;
+	}
+
+	.bordaArredondada2 { 
+		float: left;
+		display: inline-table;
+		width: 216px;
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+	
+	.bordaArredondada3R { 
+		float: right;
+		display: inline-table;
+		width: 316px;
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+	
+	.bordaArredondada4 { 
+		float: left;
+		display: inline-table;
+		width: 416px;
+		border: 1px solid #999; 
+		padding: 10px; 
+		border-radius: 5px;
+		margin:2px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+	
+	.subTotal {
+		display: inline-table;
+		width: 100%;
+		border-top: 1px solid #E4E2E2;
+		padding: 10px 3px auto auto; 
+		margin-top:10px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+	}
+
+	.nomeCentro{
+		/*
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #3F3F3F;	
+		padding: 5px;
+		*/
+	}
+
+	.cabecalhoInterno {
+		display: inline-table;
+		width: 100%;
+		border-bottom: 1px solid #E4E2E2;
+		padding: -2px auto 5px 3px;
+		/*margin-top:10px;*/
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		color: #333;
+		text-align:left;
+	}
+	 
+	.cabecalho {
+		float: left;
+		display: inline-table;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 15px;
+		color: #666;	
+		vertical-align: central;
+	}
+	
+	.nomeRelatorio{ 
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		color: #999;	
+	 }
+	 
+	 .nomeRelatorioB{ 
+	 	font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #666;	
+		padding-top: 5px;
+	 }
+	 
+	 .linha {
+		display: inline-table;
+		width: 100%;
+		border-top: 1px solid #999; 
+		margin-top: 5px;
+	 }
+	 
+	.rodape {
+		float: left;
+		display: inline-table;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 10px;
+		color: #666
+		border: 1px solid #F00;		
+	}
+
+	.azul{ color:#4286ad;}
+	.verde{ color:#009900;}
+	.vermelho{ color:#FF0000; font-weight:normal;}

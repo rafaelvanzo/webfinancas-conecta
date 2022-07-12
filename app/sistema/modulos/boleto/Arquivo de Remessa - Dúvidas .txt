@@ -1,0 +1,8 @@
+*** Cada boleto deverá conter os seguimentos P e Q ***
+
+Segmento P - Dados do boleto. *
+Segmento Q - Dados do pagador. *
+Segmento R - Informçãoes de Multa, Juros e Descontos.
+Segmento S - Mensagens (Mensagens geradas no Segmento S substituem as mensagens de todo o lote, mesmo que escritas no header).
+
+* Obrigatórios na geração de cada boleto.

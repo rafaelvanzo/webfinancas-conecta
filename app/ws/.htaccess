@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_METHOD} !GET
+RewriteRule Teste index.php
+RewriteRule ^([a-z]+)\/([a-z]+)\/?([0-9])?\/?$ index.php?Controller=$1&Action=$2&Id=$3 [NC,L,QSA]

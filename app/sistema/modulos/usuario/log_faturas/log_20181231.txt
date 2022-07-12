@@ -1,0 +1,9 @@
+31/12/2018 - 01:00:05
+cliente_id: 908
+fatura_recorrente_id: 24
+lancamento_recorrente_id: 70
+dt_vencimento: 2019-01-05
+Status: Lançamento recorrente não encontrado.
+------------------------------------------------------------------
+
+

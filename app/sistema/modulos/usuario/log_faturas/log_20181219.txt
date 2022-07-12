@@ -1,0 +1,25 @@
+19/12/2018 - 01:00:05
+cliente_id: 207
+fatura_recorrente_id: 8
+lancamento_recorrente_id: 46
+dt_vencimento: 2018-12-25
+Status: Lançamento recorrente não encontrado.
+------------------------------------------------------------------
+
+19/12/2018 - 01:00:05
+cliente_id: 706
+fatura_recorrente_id: 20
+lancamento_recorrente_id: 63
+dt_vencimento: 2018-12-25
+Status: Lançamento recorrente não encontrado.
+------------------------------------------------------------------
+
+19/12/2018 - 01:00:05
+cliente_id: 932
+fatura_recorrente_id: 26
+lancamento_recorrente_id: 75
+dt_vencimento: 2018-12-25
+Status: Lançamento programado não encontrado.
+------------------------------------------------------------------
+
+

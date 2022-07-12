@@ -1,0 +1,10 @@
+06/05/2019 - 01:02:10
+cliente_id: 863
+fatura_recorrente_id: 29
+lancamento_recorrente_id: 79
+dt_vencimento: 2019-05-15
+Status: Fatura gerada com sucesso.
+Nosso número: 141800000000001446
+------------------------------------------------------------------
+
+

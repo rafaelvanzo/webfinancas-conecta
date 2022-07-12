@@ -1,0 +1,1758 @@
+/* =======================================================
+------------------ CSS LAYOUT GERAL ----------------------
+======================================================== */
+* { margin: 0; padding: 0; }
+a{ outline: none; text-decoration: none; }
+a:hover{ outline: none; text-decoration: none; }
+
+body	{
+	background: #fff;
+	color: #393939;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#topo {
+	width:auto;
+	height:50px;
+	background: url(../imagens/geral/bg_topo.jpg) repeat-x;
+}
+#logo {
+	padding-top:5px;
+	max-width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.janela{font:95%;} 
+#boxes{display:none;}
+.linha{width:auto;height:40px;background:url(../imagens/geral/bg_linha.jpg) center repeat-x;}
+.linha_box{width:auto;height:40px;background:url(../imagens/geral/bg_linha.jpg) center repeat-x;}
+legend{background-color:#FFFFFF;font-size:14px;color:#959595;padding:5px;}
+
+/* =========== Limpar Float ============ */
+#clear{ clear:both; }
+
+/* =======================================================
+----------------- FIM CSS LAYOUT GERAL -------------------
+======================================================== */
+
+/* =======================================================
+---------------------- CSS MENU --------------------------
+======================================================== */
+#bg_menu{
+	height: 118px;
+	min-width:920px;
+	color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	background: url(../imagens/menu/bg_menu.jpg) repeat-x top;
+}
+
+/* =========== Menu básico ============ */
+
+#tabela{
+	padding-left:5px;
+	padding-right:5px;
+	color:#FFFFFF;
+	max-width:auto;/*max-width: 1366px;*/
+	min-width: 910px;/*min-width: 980px;*/
+	margin:0 auto 0 auto;
+}
+
+ul.menu{
+	display: table;
+	list-style:none;
+	float: left;
+	height: 0px;
+	line-height: 35px;
+	text-decoration: none;
+	font-size:12px;
+	color:#FFFFFF;
+}
+ul.menu li{
+	float:left;	
+}
+
+/* =========== Sub-Menu básico ============ */
+
+#sub_menu{
+	float:left;
+	max-width:905px;
+}
+#bt_sub_menu{
+	display: none;
+}
+
+#sub_show{ /*--- Estilo para aparecer o sub_menu selecionado ---*/
+	display:block;
+	float: left;
+	left: 4px;
+	position: relative;
+	text-align: left;
+	width: 750px;
+	list-style:none;
+	padding-top:7px;
+}
+ul#sub_show li{
+	float: left;
+	list-style:none;
+	padding:0 5px 0 5px;
+	line-height: 12px;	
+	width:60px;
+	font-size:11px;
+	vertical-align:top;
+	text-align:center;
+}
+ul#sub_show li a{
+	color:#FFFFFF;	
+	text-decoration: none;
+}
+ul#sub_show li a:hover{
+	color:#CCCCCC;	
+	text-decoration: none;
+}
+/* ========== Estilização do menu para aparecer o background quando estiver :hover ============ */
+
+ul.menu span{
+	display: block;
+	float: left;
+	height: 37px;
+	line-height: 35px;
+	padding: 0 10px 0 10px;
+	text-decoration: none;
+	white-space: nowrap;
+	color:#FFFFFF;
+}
+ul.menu span:hover, 
+ul.menu li:hover span	{
+	background: url(../imagens/menu/foco_hover.png);
+	color: #fff;
+	cursor: pointer;
+	padding: 0 0 0 10px;
+}
+ul.menu span:hover b.menu, 
+ul.menu li:hover span b.menu	{
+	background: url(../imagens/menu/foco_hover.png) right top;
+	cursor: pointer;
+	display: block;
+	float: left;
+	padding: 0 20px 0 10px;
+}		
+.separador	{
+	background: url(../imagens/menu/separador.jpg) center no-repeat;
+	float: left;
+	height: 37px;
+	width: 15px;
+}
+ul#sub_show li.separador_sub_menu {
+	background: url(../imagens/menu/separador_sub_menu.png) top no-repeat;
+	margin-top:5px;
+	height: 80px;
+	width: 5px;
+}	
+	
+b.menu{	padding: 0 10px 0 10px; }
+ul.menu a{ text-decoration: none; }
+ul.menu a:hover{ text-decoration: none; }
+
+/* =============== Estilo bg do botão selecionado ============== */
+ 
+#menu_show{
+	background: url(../imagens/menu/foco.gif);
+	color: #fff;
+	cursor: pointer;
+	padding: 0 0 0 10px;
+}
+
+#menu_show_b{	
+	background: url(../imagens/menu/foco.gif) right top;
+	cursor: pointer;
+	display: block;
+	float: left;
+	padding: 0 20px 0 10px;
+}	
+
+/* =============== Estilo menu da direita ============== */
+
+#menu_dir {
+	position:relative;
+	height:21px;
+	width:60px;
+	float:right;
+	font-size:15px;
+	/*padding-top:9px;*/
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+#menu_dir a,#menu_dir a:hover{
+	color:#FFFFFF;
+}	
+/* =======================================================
+--------------------- FIM CSS MENU -----------------------
+======================================================== */
+
+/* =======================================================
+------------------- INICIO CSS PALCO----------------------
+======================================================== */
+#palco_topo{
+	min-width:920px;
+	height:35px;
+	background: url(../imagens/geral/bg_palco_topo.jpg) repeat-x top;
+}
+#palco {
+	min-width:910px;
+	/*max-width:auto;/*max-width: 1366px;*/
+	min-height:250px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12px;
+	color:#333333;
+	padding:5px 5px 0 5px;
+}
+
+/* =======================================================
+--------------------- FIM CSS PALCO -----------------------
+======================================================== */
+
+/* =======================================================
+------------------- INICIO CSS RODAPE----------------------
+======================================================== */
+#rodape	{
+	height: 70px;	 
+	margin: 40px auto 0px auto;
+	padding: 0px 0 0 0;
+	text-align: left;
+	min-width: 780px;
+	max-width:auto;/*max-width: 1366px;*/
+}
+#rodape_esq	{
+	color: #818181;
+	 
+	font-size: 11px;
+	line-height: 11px;
+	padding: 15px 5px 15px 25px;
+	margin: 0 20px;
+	
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	background: url(../imagens/geral/icon_logo.png) no-repeat left;
+} 
+/* =======================================================
+---------------------FIM CSS RODAPE ----------------------
+======================================================== */	
+
+/* =======================================================
+------------ INICIO CSS INPUT, BUTTON, DIV ---------------
+======================================================== */
+.borda-arredondada {
+  /* Apenas para dar um destaque para o elemento */
+  color: #333333;
+  padding: 3px;
+  border:1px solid #CCCCCC;
+  padding:0;
+  
+  /* O CSS 3 */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  
+	/*
+	 box-shadow:inset 0px 1px 3px #bbb;
+  -webkit-box-shadow:inset 0px 1px 3px #bbb;
+  -moz-box-shadow:inset 0px 1px 3px #bbb;
+	/*
+	
+  behavior: url(css/pie-1.0beta5/PIE.htc); /* o caminho é relativo ao documento HTML, não ao CSS */
+}
+
+input {
+	/* Apenas para dar um destaque para o elemento */
+  color: #333333;
+  padding: 3px;
+  border:1px solid #CCCCCC;
+  height:18px;
+  
+  /* O CSS 3 */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  
+	/*
+  box-shadow:inset 0px 1px 3px #bbb;
+  -webkit-box-shadow:inset 0px 1px 3px #bbb;
+  -moz-box-shadow:inset 0px 1px 3px #bbb;
+  */
+  behavior: url(css/pie-1.0beta5/PIE.htc); /* o caminho é relativo ao documento HTML, não ao CSS */
+}
+
+.select {
+	/* Apenas para dar um destaque para o elemento */
+  color: #333333;
+  padding: 3px;
+  border:1px solid #CCCCCC;
+  height:26px;
+  line-height:20px;
+
+  
+  /* O CSS 3 */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+
+	/*
+  box-shadow:inset 0px 1px 3px #bbb;
+  -webkit-box-shadow:inset 0px 1px 3px #bbb;
+  -moz-box-shadow:inset 0px 1px 3px #bbb;
+  */
+
+  behavior: url(css/pie-1.0beta5/PIE.htc); /* o caminho é relativo ao documento HTML, não ao CSS */
+}
+
+textarea{
+	/* Apenas para dar um destaque para o elemento */
+  color: #333333;
+  padding: 3px;
+  border:1px solid #CCCCCC;
+  height:26px;
+  
+  /* O CSS 3 */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+ 
+	/*
+  box-shadow:inset 0px 1px 3px #bbb;
+  -webkit-box-shadow:inset 0px 1px 3px #bbb;
+  -moz-box-shadow:inset 0px 1px 3px #bbb;
+  */
+ 
+  behavior: url(css/pie-1.0beta5/PIE.htc); /* o caminho é relativo ao documento HTML, não ao CSS */
+}
+/* =======================================================
+--------------- FIM CSS INPUT, BUTTON, DIV ---------------
+======================================================== */	
+
+/* =======================================================
+------------------- INICIO CSS TABELA --------------------
+======================================================== */
+
+a.icon-editar	{
+	background: url(../imagens/tabela/editar_pb.png) no-repeat;
+	display: block;
+	float: left;
+	height: 24px;
+	margin: 0 8px 0 0;
+	width: 24px;
+	}
+a:hover.icon-editar	{
+	background: url(../imagens/tabela/editar.png) no-repeat;
+	}
+a.icon-cancelado	{
+	background: url(../imagens/tabela/cancelado_pb.png) no-repeat;
+	display: block;
+	float: left;
+	height: 24px;
+	margin: 0 8px 0 0;
+	width: 24px;
+	}
+a:hover.icon-cancelado	{
+	background: url(../imagens/tabela/cancelado.png) no-repeat;
+	}
+a.icon-aguardando	{
+	background: url(../imagens/tabela/aguardando_pb.png) no-repeat;
+	display: block;
+	float: left;
+	height: 24px;
+	margin: 0 8px 0 0;
+	width: 24px;
+	}
+a:hover.icon-aguardando	{
+	background: url(../imagens/tabela/aguardando.png) no-repeat;
+	}
+a.icon-aprovado	{
+	background: url(../imagens/tabela/aprovado_pb.png) no-repeat;
+	display: block;
+	float: left;
+	height: 24px;
+	width: 24px;
+	}
+a:hover.icon-aprovado	{
+	background: url(../imagens/tabela/aprovado.png) no-repeat;
+	}
+a.icon-5-ok	{
+	background: url(../imagens/tabela/table_icon_5_ok.gif) no-repeat;
+	display: block;
+	/*float: left;*/
+	padding-left:-10px;
+	height: 24px;
+	width: 24px;
+	}
+a:hover.icon-5-ok	{
+	background: url(../imagens/tabela/table_icon_5_ok.gif) 0 -24px;
+	}	
+#tooltip	{
+	background-color: #8c8c8c;
+	border: 1px solid #767676;
+	color: #fff;
+	font-size: 10px;
+	font-weight: normal;
+	opacity: 0.85;
+	padding: 0 5px;
+	position: absolute;
+	text-align: left;
+	z-index: 3000;
+	}
+#tooltip h6, #tooltip div	{
+	font-size: 11px;
+	line-height: 20px;
+	margin: 0;
+	}
+	
+	/*=========================*/
+	
+#tabela-resultado	{
+	margin-bottom: 20px;
+	
+	}
+
+#tabela-resultado	th	{
+	height: 35px;
+	text-align: center;
+	}
+#tabela-resultado	.minwidth-1	{
+	min-width: 110px;
+	}
+#tabela-resultado td	{
+	height:35px;
+	cursor:pointer;
+	border-right: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 0px 5px 0px 5px;
+	}
+#tabela-resultado td.primeira_celula{
+	border-left: 1px solid #d2d2d2;
+}	
+#tabela-resultado tr.alternate-row	{
+	background: #ececec;
+	}
+td.tabela-dir	{
+	padding: 0 10px 0 10px;
+	}
+td.checkbox-width	{
+	}
+.tabela-topo-esq	{
+	background: url(../imagens/tabela/table_header_checkbox.jpg) no-repeat;
+	border: none;
+	min-width: 5px;
+	padding: 0 0 0 0;
+	text-align:center;
+	}
+.tabela-topo-dir	{
+	background: url(../imagens/tabela/table_header_options.jpg) right top no-repeat;
+	border: none;
+	min-width: 5px;
+	padding: 0 0 0 0;
+	
+	}
+.tabela-topo-repetir	{
+	background: url(../imagens/tabela/table_header_repeat.jpg) repeat-x;
+	border: none;
+	line-height: 0;
+	padding: 0 0 auto auto;
+}
+.tabela-topo-dir a,
+ .tabela-topo-repetir a	{
+	background: url(../imagens/tabela/table_sort_arrow.gif) right no-repeat;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 14px;
+	margin: 0 0 0 10px;
+	padding: 0 10px 0 0;
+}
+	
+	.tabela-topo-dir a:hover,
+ .tabela-topo-repetir a:hover	{ color:#666; }
+	
+th.line-left	{
+	border-left: 1px solid #373737;
+}
+#tabela-resultado	tr.activity-blue	{
+	background: #FFFFFF;
+}
+
+/* =================== Estilização tabela ===================== */
+.tabela_esquerda{
+	padding:10px 5px 5px 5px;
+	line-height:20px;
+}
+.tabela_bg_cinza{ background:#F3F3F3; }
+/* =======================================================
+--------------------- FIM CSS TABELA ---------------------
+======================================================== */	
+	
+/* ==================================================================================
+------------------- INICIO CSS AUTOCOMPLETAR BARRA DE ROLAGEM --------------------
+=================================================================================== */
+	
+	
+.ui-autocomplete {
+	max-height: 100px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+	height: 100px;
+}	
+
+/* ===============================================================================
+--------------------- FIM CSS AUTOCOMPLETAR BARRA DE ROLAGEM ---------------------
+================================================================================ */	
+
+/* ==================================================================================
+------------------------------- INICIO CSS RECIBO --------------------------------
+=================================================================================== */
+	
+.recibo{	
+ color: #333333;
+  padding: 3px;
+  border:1px solid #CCCCCC;
+  height:26px;
+  
+  /* O CSS 3 */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+ 
+	/*
+  box-shadow:inset 0px 1px 3px #bbb;
+  -webkit-box-shadow:inset 0px 1px 3px #bbb;
+  -moz-box-shadow:inset 0px 1px 3px #bbb;
+  */
+ 
+  behavior: url(css/pie-1.0beta5/PIE.htc); /* o caminho é relativo ao documento HTML, não ao CSS */
+}
+/* ===============================================================================
+------------------------------- FIM CSS RECIBO -----------------------------------
+================================================================================ */	
+/* ===============================================================================
+-------------------------------- NOTIFICAÇÕES ------------------------------------
+================================================================================ */	
+	
+#message-yellow	{
+	margin-bottom: 5px;
+	}
+.yellow-left	{
+	background: url(../imagens/tabela/message_yellow.gif) top left no-repeat;
+	color: #e79300;
+	font-family: Tahoma;
+	font-weight: bold;
+	padding: 0 0 0 20px;
+	}
+.yellow-left a	{
+	color: #e79300;
+	font-family: Tahoma;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+.yellow-right a	{
+	cursor: pointer;
+	}
+.yellow-right	{
+	width: 55px;
+	}
+#message-blue	{
+	margin-bottom: 5px;
+	}
+.blue-left	{
+	background: url(../imagens/tabela/message_blue.gif) top left no-repeat;
+	color: #2e74b2;
+	font-family: Tahoma;
+	font-weight: bold;
+	padding: 0 0 0 20px;
+	}
+.blue-left a	{
+	color: #2e74b2;
+	font-family: Tahoma;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+.blue-right a	{
+	cursor: pointer;
+	}
+.blue-right	{
+	width: 55px;
+	}
+#message-red	{
+	margin-bottom: 5px;
+	}
+.red-left	{
+	background: url(../imagens/tabela/message_red.gif) top left no-repeat;
+	color: #ce2700;
+	font-family: Tahoma;
+	font-weight: bold;
+	padding: 0 0 0 20px;
+	}
+.red-left a	{
+	color: #ce2700;
+	font-family: Tahoma;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+.red-right a	{
+	cursor: pointer;
+	}
+.red-right	{
+	width: 55px;
+	}
+#message-green	{
+	margin-bottom: 5px;
+	}
+.green-left	{
+	background: url(../imagens/tabela/message_green.gif) top left no-repeat;
+	color: #6da827;
+	font-family: Tahoma;
+	font-weight: bold;
+	line-height: 12px;
+	padding: 0 0 0 20px;
+	}
+.green-left a	{
+	color: #6da827;
+	font-family: Tahoma;
+	font-weight: normal;
+	text-decoration: underline;
+	}
+.green-right a	{
+	cursor: pointer;
+	}
+.green-right	{
+	width: 55px;
+	}	
+/* ===============================================================================
+---------------------------- FIM CSS NOTIFICAÇÃO ---------------------------------
+================================================================================ */		
+	
+
+
+/* ==============================================================================
+--------------------- CSS TABELA INICIO LANCAMENTOS PROGRAMADOS------------------
+=================================================================================*/
+
+#topo_tabela_ini_lanc_prog	{
+	/*margin-bottom: 20px;*/
+	}
+
+#topo_tabela_ini_lanc_prog	th	{
+	height: 20px;
+	text-align: center;
+	}
+#topo_tabela_ini_lanc_prog	.minwidth-1	{
+	min-width: 110px;
+	}
+#topo_tabela_ini_lanc_prog td	{
+	height:10px;
+	cursor:pointer;
+	border-right: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 0px 5px 0px 5px;
+	}
+#topo_tabela_ini_lanc_prog td.primeira_celula{
+	border-left: 1px solid #d2d2d2;
+}	
+#topo_tabela_ini_lanc_prog tr.alternate-row	{
+	background: #ececec;
+	}	
+
+
+#tabela_ini_lanc_prog	{
+	/*margin-bottom: 20px;*/
+	}
+
+#tabela_ini_lanc_prog	th	{
+	height: 0px;
+	text-align: center;
+	}
+#tabela_ini_lanc_prog	.minwidth-1	{
+	min-width: 110px;
+	}
+#tabela_ini_lanc_prog td	{
+	height:10px;
+	cursor:pointer;
+	border-right: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 0px 5px 0px 5px;
+	}
+#tabela_ini_lanc_prog td.primeira_celula{
+	border-left: 1px solid #d2d2d2;
+}	
+#tabela_ini_lanc_prog tr.alternate-row	{
+	background: #ececec;
+	}
+
+
+/* ==============================================================================
+--------------------- FIM CSS TABELA INICIO LANCAMENTOS PROGRAMADOS--------------
+=================================================================================*/
+
+/********************************************************/
+/*                       13. Icons                      */
+/********************************************************/
+
+@font-face {
+	font-family: 'EntypoRegular';
+	src: url('../dataTable/css/Entypo/entypo-webfont.eot');
+	src: url('../dataTable/css/Entypo/entypo-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../dataTable/css/Entypo/entypo-webfont.woff') format('woff'),
+		 url('../dataTable/css/Entypo/entypo-webfont.ttf') format('truetype'),
+		 url('../dataTable/css/Entypo/entypo-webfont.svg#EntypoRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	display: inline-block;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'EntypoRegular';
+	font-size: 2em;
+	line-height: 1em;
+	margin: -0.1em 0.115em -0.5em -0.077em;
+	vertical-align: -0.077em;
+	}
+	.button.icon:before, .button > .icon:before,
+	.button-icon.icon:before, .button-icon > .icon:before {
+		font-size: 2.3em;
+		margin-top: -0.65em; 
+		margin-bottom: -0.65em;
+		vertical-align: -0.133em;
+	}
+
+	/* Sizes */
+	.icon-size2:before {
+		font-size: 3.5em;
+		margin-top: -1.25em;
+		margin-bottom: -1.25em;
+		vertical-align: -0.132em;
+	}
+	.icon-size3:before {
+		font-size: 4.5em;
+		margin-top: -1.75em;
+		margin-bottom: -1.75em;
+		vertical-align: -0.171em;
+	}
+	.icon-size4:before {
+		font-size: 7em;
+		margin-top: -3em;
+		margin-bottom: -3em;
+		vertical-align: middle;
+	}
+	.icon-size5:before {
+		font-size: 10em;
+		margin-top: -4.5em;
+		margin-bottom: -4.5em;
+		vertical-align: middle;
+	}
+
+	/* IE9 goes crazy with relative font-sizes */
+	.ie9 .icon-size2:before,
+	.ie9 .icon-size3:before,
+	.ie9 .icon-size4:before,
+	.ie9 .icon-size5:before {
+		font-size: 0.25em;
+	}
+
+	/* Empty icons */
+	[class^="icon-"]:empty:before,
+	[class*=" icon-"]:empty:before {
+		margin-right: -0.077em;
+		margin-left: -0.077em;
+	}
+
+	/* IE7 */
+	.font-icon {
+		font-weight: normal;
+		font-style: normal;
+		font-family: 'EntypoRegular';
+		font-size: 2em;
+		margin: -0.5em 0.115em -0.5em -0.077em;
+		vertical-align: middle;
+		}
+		.font-icon.empty {
+			margin-right: -2px;
+			margin-left: -2px;
+		}
+		/* Sizes */
+		.icon-size2 > .font-icon {
+			font-size: 3.5em;
+			margin-top: -1.25em;
+			margin-bottom: -1.25em;
+			vertical-align: -0.132em;
+		}
+		.icon-size3 > .font-icon {
+			font-size: 4.5em;
+			margin-top: -1.75em;
+			margin-bottom: -1.75em;
+			vertical-align: -0.171em;
+		}
+		.icon-size4 > .font-icon {
+			font-size: 7em;
+			margin-top: -3em;
+			margin-bottom: -3em;
+			vertical-align: middle;
+		}
+		.icon-size5 > .font-icon {
+			font-size: 10em;
+			margin-top: -4.5em;
+			margin-bottom: -4.5em;
+			vertical-align: middle;
+		}
+
+	/* IE8 */
+	[class^="icon-"].font-icon-empty:before,
+	[class*=" icon-"].font-icon-empty:before {
+		margin-right: -0.077em;
+		margin-left: -0.077em;
+	}
+
+.left-icon {
+	padding-left: 20px;
+	position: relative;
+	min-height: 16px;
+	}
+	.wrapped.left-icon {
+		padding-left: 30px;
+	}
+	.boxed.left-icon {
+		padding-left: 36px;
+	}
+.big-left-icon {
+	padding-left: 38px;
+	position: relative;
+	min-height: 32px;
+	}
+	.wrapped.big-left-icon {
+		padding-left: 48px;
+	}
+	.boxed.big-left-icon {
+		padding-left: 54px;
+	}
+.huge-left-icon {
+	padding-left: 68px;
+	position: relative;
+	min-height: 64px;
+	}
+	.wrapped.huge-left-icon {
+		padding-left: 78px;
+	}
+	.boxed.huge-left-icon {
+		padding-left: 84px;
+	}
+
+	.left-icon:before,
+	.big-left-icon:before,
+	.huge-left-icon:before {
+		position: absolute;
+		display: block;
+		margin: 0;
+		}
+		.left-icon:before {
+			top: 0;
+			left: -1px;
+			font-size: 30px;
+			line-height: 18px;
+			}
+			.wrapped.left-icon:before {
+				top: 10px;
+				left: 9px;
+			}
+			.boxed.left-icon:before {
+				top: 16px;
+				left: 15px;
+			}
+		.big-left-icon:before {
+			top: -1px;
+			left: -2px;
+			font-size: 60px;
+			line-height: 36px;
+			}
+			.wrapped.big-left-icon:before {
+				top: 9px;
+				left: 8px;
+			}
+			.boxed.big-left-icon:before {
+				top: 15px;
+				left: 14px;
+			}
+		.huge-left-icon:before {
+			top: -3px;
+			left: -5px;
+			font-size: 120px;
+			line-height: 72px;
+			}
+			.wrapped.huge-left-icon:before {
+				top: 7px;
+				left: 5px;
+			}
+			.boxed.huge-left-icon:before {
+				top: 13px;
+				left: 11px;
+			}
+
+	.icon-phone:before				{ content: '!'; }
+	.icon-mobile:before				{ content: '"'; }
+	.icon-tag:before				{ content: '#'; }
+	.icon-directions:before			{ content: '$'; }
+	.icon-mail:before				{ content: '%'; }
+	.icon-pencil:before				{ content: '&'; }
+	.icon-paperclip:before			{ content: '\''; }
+	.icon-reply:before				{ content: '('; }
+	.icon-replay-all:before			{ content: ')'; }
+	.icon-forward:before			{ content: '*'; }
+	.icon-user:before				{ content: '+'; }
+	.icon-users:before				{ content: ','; }
+	.icon-add-user:before			{ content: '-'; }
+	.icon-card:before				{ content: '.'; }
+	.icon-extract:before			{ content: '/'; }
+	.icon-marker:before				{ content: '0'; }
+	.icon-map:before				{ content: '1'; }
+	.icon-compass:before			{ content: '2'; }
+	.icon-arrow:before				{ content: '3'; }
+	.icon-target:before				{ content: '4'; }
+	.icon-path:before				{ content: '5'; }
+	.icon-heart:before				{ content: '6'; }
+	.icon-star:before				{ content: '7'; }
+	.icon-like:before				{ content: '8'; }
+	.icon-chat:before				{ content: '9'; }
+	.icon-speech:before				{ content: ':'; }
+	.icon-quote:before				{ content: ';'; }
+	.icon-printer:before			{ content: '<'; }
+	.icon-bell:before				{ content: '='; }
+	.icon-link:before				{ content: '>'; }
+	.icon-flag:before				{ content: '?'; }
+	.icon-gear:before				{ content: '@'; }
+	.icon-flashlight:before			{ content: 'A'; }
+	.icon-cup:before				{ content: 'B'; }
+	.icon-price-tag:before			{ content: 'C'; }
+	.icon-camera:before				{ content: 'D'; }
+	.icon-moon:before				{ content: 'E'; }
+	.icon-palette:before			{ content: 'F'; }
+	.icon-leaf:before				{ content: 'G'; }
+	.icon-music-note:before			{ content: 'H'; }
+	.icon-bag:before				{ content: 'I'; }
+	.icon-plane:before				{ content: 'J'; }
+	.icon-buoy:before				{ content: 'K'; }
+	.icon-rain:before				{ content: 'L'; }
+	.icon-eye:before				{ content: 'M'; }
+	.icon-clock:before				{ content: 'N'; }
+	.icon-mic:before				{ content: 'O'; }
+	.icon-calendar:before			{ content: 'P'; }
+	.icon-lightning:before			{ content: 'Q'; }
+	.icon-hourglass:before			{ content: 'R'; }
+	.icon-rss:before				{ content: 'S'; }
+	.icon-wifi:before				{ content: 'T'; }
+	.icon-lock:before				{ content: 'U'; }
+	.icon-unlock:before				{ content: 'V'; }
+	.icon-tick:before				{ content: 'W'; }
+	.icon-cross:before				{ content: 'X'; }
+	.icon-minus-round:before		{ content: 'Y'; }
+	.icon-plus-round:before			{ content: 'Z'; }
+	.icon-cross-round:before		{ content: '['; }
+	.icon-minus:before				{ content: '\\'; }
+	.icon-plus:before				{ content: ']'; }
+	.icon-forbidden:before			{ content: '^'; }
+	.icon-info:before				{ content: '_'; }
+	.icon-info-round:before			{ content: '`'; }
+	.icon-question:before			{ content: 'a'; }
+	.icon-question-round:before		{ content: 'b'; }
+	.icon-warning:before			{ content: 'c'; }
+	.icon-redo:before				{ content: 'd'; }
+	.icon-undo:before				{ content: 'e'; }
+	.icon-swap:before				{ content: 'f'; }
+	.icon-revert:before				{ content: 'g'; }
+	.icon-refresh:before			{ content: 'h'; }
+	.icon-list:before				{ content: 'i'; }
+	.icon-list-add:before			{ content: 'j'; }
+	.icon-thumbs:before				{ content: 'k'; }
+	.icon-page-list:before			{ content: 'l'; }
+	.icon-page:before				{ content: 'm'; }
+	.icon-pages:before				{ content: 'n'; }
+	.icon-marker:before				{ content: '0'; }
+	.icon-pictures:before			{ content: 'p'; }
+	.icon-movie:before				{ content: 'q'; }
+	.icon-music:before				{ content: 'r'; }
+	.icon-folder:before				{ content: 's'; }
+	.icon-drawer:before				{ content: 't'; }
+	.icon-trash:before				{ content: 'u'; }
+	.icon-outbox:before				{ content: 'v'; }
+	.icon-inbox:before				{ content: 'w'; }
+	.icon-download:before			{ content: 'x'; }
+	.icon-cloud:before				{ content: 'y'; }
+	.icon-cloud-upload:before		{ content: 'z'; }
+	.icon-play:before				{ content: '{'; }
+	.icon-pause:before				{ content: '|'; }
+	.icon-record:before				{ content: '~'; }
+	.icon-forward:before			{ content: 'Ä'; }
+	.icon-backward:before			{ content: 'Å'; }
+	.icon-previous:before			{ content: 'Ç'; }
+	.icon-next:before				{ content: 'É'; }
+	.icon-expand:before				{ content: 'Ñ'; }
+	.icon-reduce:before				{ content: 'Ö'; }
+	.icon-volume:before				{ content: 'Ü'; }
+	.icon-loud:before				{ content: 'á'; }
+	.icon-mute:before				{ content: 'à'; }
+	.icon-left-fat:before			{ content: 'â'; }
+	.icon-down-fat:before			{ content: 'ä'; }
+	.icon-up-fat:before				{ content: 'ã'; }
+	.icon-right-fat:before			{ content: 'å'; }
+	.icon-left:before				{ content: 'ç'; }
+	.icon-down:before				{ content: 'é'; }
+	.icon-up:before					{ content: 'è'; }
+	.icon-right:before				{ content: 'ê'; }
+	.icon-left-round:before			{ content: 'ë'; }
+	.icon-down-round:before			{ content: 'í'; }
+	.icon-up-round:before			{ content: 'ì'; }
+	.icon-right-round:before		{ content: 'î'; }
+	.icon-home:before				{ content: 'ï'; }
+	.icon-ribbon:before				{ content: 'ñ'; }
+	.icon-read:before				{ content: 'ó'; }
+	.icon-new-tab:before			{ content: 'ò'; }
+	.icon-search:before				{ content: 'ô'; }
+	.icon-ellipsis:before			{ content: 'ö'; }
+	.icon-bullet-list:before		{ content: '®'; }
+	.icon-creative-commons:before	{ content: '©'; }
+
+	/********************************************************/
+/*                      Fim Icons                       */
+/********************************************************/
+	
+	/********************************************************/
+/*                      17. Buttons                     */
+/********************************************************/
+
+/* Set line-height so buttons fit */
+.button-height {
+	line-height: 34px;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	}
+	.button-height.wrapped {
+		padding: 8px 10px;
+		margin-top: 0;
+	}
+	p.button-height,
+	ul.button-height,
+	ol.button-height {
+		margin-bottom: 14px;
+	}
+	p.button-height:last-child,
+	ul.button-height:last-child,
+	ol.button-height:last-child {
+		margin-bottom: -2px;
+		}
+		/* IE7 */
+		p.button-height.last-child,
+		ul.button-height.last-child,
+		ol.button-height.last-child {
+			margin-bottom: -2px;
+		}
+	.button-height.absolute-left,
+	.button-height.absolute-right {
+		margin-top: -17px;
+		margin-bottom: 0;
+	}
+
+/* Disabled elements */
+.disabled, .disabled span,
+.disabled .input, .disabled input,
+.disabled .label, .disabled label,
+.disabled .button, .disabled button,
+.disabled a,
+:disabled {
+	cursor: not-allowed !important;
+}
+
+.button {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: baseline;
+	*vertical-align: middle;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	text-transform: none;
+	padding: 0 11px;
+	font-size: 13px;
+	line-height: 28px;
+	height: 28px;
+	*line-height: 26px;
+	*height: 26px;
+	-webkit-background-clip: padding-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	min-width: 6px;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-appearance: none;
+	background-position: center center !important; /* This is required for glossy gradients image fallbacck*/
+	}
+	.ie7 button.button {
+		line-height: 24px;
+		height: 28px;
+	}
+	.ie7 .button {
+		margin-left: 4px;
+		}
+		.ie7 .button:first-child {
+			margin-left: 0;
+		}
+	.button.full-width {
+		width: 100%;
+		margin: 0;
+		height: auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+		.no-boxsizing .button.full-width {
+			width: 94%;
+		}
+		.no-boxsizing button.button.full-width {
+			width: 100%;
+		}
+	.button-height .button.float-left,
+	.button-height .button.float-right {
+		margin-top: 2px;
+	}
+	.button.absolute-left,
+	.button.absolute-right {
+		position: absolute;
+		margin-top: -15px;
+	}
+
+	/* Buttons in inputs */
+	.input .button {
+		margin-top: -1px;
+		margin-bottom: -1px;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		}
+		.input .button:first-child {
+			margin-left: -9px;
+		}
+		.ie7 .input .button:first-child {
+			margin-left: 0;
+			margin-right: 3px;
+		}
+		.input.large .button,
+		.input .button:first-child {
+			-webkit-border-bottom-left-radius: 3px;
+			-webkit-border-top-left-radius: 3px;
+			-moz-border-radius-topleft: 3px;
+			-moz-border-radius-bottomleft: 3px;
+			border-bottom-left-radius: 3px;
+			border-top-left-radius: 3px;
+		}
+		.input .button:last-child {
+			margin-right: -9px;
+			}
+			/* IE7 */
+			.input .button.last-child {
+				margin-right: -9px;
+			}
+		.input.large .button,
+		.input .button:last-child {
+			-webkit-border-bottom-right-radius: 3px;
+			-webkit-border-top-right-radius: 3px;
+			-moz-border-radius-topright: 3px;
+			-moz-border-radius-bottomright: 3px;
+			border-bottom-right-radius: 3px;
+			border-top-right-radius: 3px;
+			}
+
+	/* Default shadows */
+	.button,
+	.button-group > .button:first-child,
+	.select-value,
+	.legend {
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+		}
+		.button-group > .button,
+		.select-arrow {
+			-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), inset 1px 0 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+			-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), inset 1px 0 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), inset 1px 0 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+		}
+		.button,
+		.select-value,
+		.legend {
+			-webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+			-moz-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+			text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+		}
+
+	/* Custom tones shadows */
+	.button.black-gradient, .button-group > .black-gradient:first-child,
+	.button.anthracite-gradient, .button-group > .anthracite-gradient:first-child,
+	.button.grey-gradient, .button-group > .grey-gradient:first-child,
+	.button.blue-gradient, .button-group > .blue-gradient:first-child,
+	.button.red-gradient, .button-group > .red-gradient:first-child,
+	.button.orange-gradient, .button-group > .orange-gradient:first-child,
+	.button.green-gradient, .button-group > .green-gradient:first-child,
+	.black-gradient > .select-value, .anthracite-gradient > .select-value,
+	.blue-gradient > .select-value, .grey-gradient > .select-value,
+	.red-gradient > .select-value, .orange-gradient > .select-value,
+	.green-gradient > .select-value {
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.25);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.25);
+		}
+		.button.black-gradient,
+		.button.anthracite-gradient,
+		.button.grey-gradient,
+		.button.blue-gradient,
+		.black-gradient > .select-value, .anthracite-gradient > .select-value,
+		.blue-gradient > .select-value, .grey-gradient > .select-value {
+			-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+			-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+		}
+		.button.red-gradient,
+		.button.orange-gradient,
+		.button.green-gradient,
+		.select.red-gradient > .select-value, .select.orange-gradient > .select-value, .select.green-gradient > .select-value {
+			-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+			-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+		}
+	.button-group > .silver-gradient,
+	.button-group > .white-gradient,
+	.white-gradient > .select-arrow {
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), inset 1px 0 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), inset 1px 0 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), inset 1px 0 0 rgba(255, 255, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+	}
+	.button-group > .black-gradient,
+	.button-group > .anthracite-gradient,
+	.button-group > .grey-gradient,
+	.button-group > .red-gradient,
+	.button-group > .orange-gradient,
+	.button-group > .green-gradient,
+	.button-group > .blue-gradient,
+	.black-gradient > .select-arrow, .anthracite-gradient > .select-arrow,
+	.grey-gradient > .select-arrow, .red-gradient > .select-arrow,
+	.orange-gradient > .select-arrow, .green-gradient > .select-arrow, .blue-gradient > .select-arrow {
+		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 1px 0 0 rgba(255, 255, 255, 0.35), 0 1px 1px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 1px 0 0 rgba(255, 255, 255, 0.35), 0 1px 1px rgba(0, 0, 0, 0.25);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 1px 0 0 rgba(255, 255, 255, 0.35), 0 1px 1px rgba(0, 0, 0, 0.25);
+	}
+
+	/* Active state */
+	.button:active, .button.active {
+		border: 0;
+		padding: 1px 12px;
+		-webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.75), 0 1px 1px rgba(255, 255, 255, 0.35) !important;
+		-moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.75), 0 1px 1px rgba(255, 255, 255, 0.35) !important;
+		box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.75), 0 1px 1px rgba(255, 255, 255, 0.35) !important;
+		}
+		.button.silver-active:active, .button.silver-active.active,
+		.button.white-active:active, .button.white-active.active {
+			-webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+			-moz-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+			text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+		}
+		.button.black-active:active, .button.black-active.active,
+		.button.anthracite-active:active, .button.anthracite-active.active,
+		.button.grey-active:active, .button.grey-active.active,
+		.button.blue-active:active, .button.blue-active.active {
+			-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+			-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+		}
+		.button.red-active:active, .button.red-active.active,
+		.button.orange-active:active, .button.orange-active.active,
+		.button.green-active:active, .button.green-active.active {
+			-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+			-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+		}
+
+	/* Disabled state */
+	.button:disabled, .button.disabled, .disabled .button,
+	.disabled .select-value, .disabled .select-arrow {
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+		-webkit-text-shadow: none !important;
+		-moz-text-shadow: none !important;
+		text-shadow: none !important;
+		}
+		.button:disabled, .button.disabled, .disabled .button {
+			border-width: 1px;
+			border-style: solid;
+			padding: 0 11px;
+		}
+
+/* Icon section in a button */
+.button > .button-icon {
+	display: inline-block;
+	vertical-align: baseline;
+	position: relative;
+	text-align: left;
+	font-weight: bold;
+	padding: 0 10px;
+	line-height: inherit;
+	//line-height:expression(this.parentNode.currentStyle['line-height']);
+	height: inherit;
+	//height:expression(this.parentNode.currentStyle['height']-2);
+	min-width: 6px;
+	border-width: 1px;
+	border-style: solid;
+	margin: -1px 9px -1px -12px;
+	-webkit-background-clip: padding-box;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+	-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	background-position: center center !important; /* This is required for glossy gradients image fallbacck*/
+	}
+	.ie7 .button > .button-icon {
+		margin: -1px 9px -1px 0;
+	}
+	.button > .button-icon.right-side {
+		margin: -1px -12px -1px 9px;
+		-webkit-border-radius: 0;
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-bottom-right-radius: 4px;
+		-moz-border-radius: 0 4px 4px 0;
+		border-radius: 0 4px 4px 0;
+		}
+		.ie7 .button > .button-icon.right-side {
+			margin: -1px 0 -1px 0;
+		}
+	:active > .button-icon,
+	.active > .button-icon {
+		-webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.75);
+		box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.75);
+		}
+		:active > .button-icon.black-gradient,
+		.active > .button-icon.black-gradient,
+		:active > .button-icon.anthracite-gradient,
+		.active > .button-icon.anthracite-gradient,
+		:active > .button-icon.grey-gradient,
+		.active > .button-icon.grey-gradient,
+		:active > .button-icon.blue-gradient,
+		.active > .button-icon.blue-gradient {
+			-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+			-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+		}
+		:active > .button-icon.white-gradient,
+		.active > .button-icon.white-gradient {
+			-webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+			-moz-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+			text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+		}
+		:active .button-icon.red-gradient,
+		.active .button-icon.red-gradient,
+		:active .button-icon.orange-gradient,
+		.active .button-icon.orange-gradient,
+		:active .button-icon.green-gradient,
+		.active .button-icon.green-gradient {
+			-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+			-moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+		}
+	:disabled > .button-icon,
+	.disabled .button-icon {
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		-webkit-text-shadow: none;
+		-moz-text-shadow: none;
+		text-shadow: none;
+	}
+
+/* Tiny button */
+.button.tiny, .tiny .button {
+	padding: 0 5px;
+	line-height: 16px;
+	height: 16px;
+	*line-height: 14px;
+	*height: 14px;
+	font-size: 11px;
+	min-width: auto;
+	font-weight: normal;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+	.ie7 button.button.tiny,
+	.ie7 .tiny button.button {
+		line-height: 12px;
+		height: 16px;
+	}
+	p > .button.tiny, p.tiny > .button, .tiny p > .button {
+		margin-top: -1px;
+		margin-bottom: -1px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	.button.tiny.absolute-left, .tiny .button.absolute-left,
+	.button.tiny.absolute-right, .tiny .button.absolute-right {
+		margin-top: -9px;
+	}
+	.input .button.tiny:first-child,
+	.input.tiny .button:first-child {
+		margin-left: -3px;
+	}
+	.input .button.tiny:last-child,
+	.input.tiny .button:last-child {
+		margin-right: -3px;
+		}
+		/* IE7 */
+		.input .button.tiny.last-child,
+		.input.tiny .button.last-child {
+			margin-right: -3px;
+		}
+	.button.tiny:active, .tiny .button:active,
+	.button.tiny.active, .tiny .button.active {
+		padding: 1px 6px;
+		}
+		.button.tiny:disabled, .button.tiny.disabled,
+		.tiny .button:disabled, .tiny .button.disabled,
+		.tiny.disabled .button, .disabled .tiny .button {
+			padding: 0 5px;
+		}
+	.button-group.tiny, .tiny .button-group {
+		line-height: 18px;
+		height: 18px;
+		margin-top: -2px;
+		margin-bottom: 0;
+		}
+		.button-group.tiny.absolute-left, .tiny .button-group.absolute-left,
+		.button-group.tiny.absolute-right, .tiny .button-group.absolute-right {
+			margin-top: -9px;
+		}
+
+/* Compact button */
+.button.compact, .compact .button {
+	padding: 0 8px;
+	line-height: 22px;
+	height: 22px;
+	*line-height: 20px;
+	*height: 20px;
+	}
+	.ie7 button.button.compact,
+	.ie7 .compact button.button {
+		line-height: 18px;
+		height: 22px;
+	}
+	.button.compact.absolute-left, .compact .button.absolute-left,
+	.button.compact.absolute-right, .compact .button.absolute-right {
+		margin-top: -12px;
+	}
+	.input .button.compact {
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		}
+		.input .button.compact:first-child,
+		.input.compact .button:first-child {
+			margin-left: -6px;
+		}
+		.input .button.compact:last-child,
+		.input.compact .button:last-child {
+			margin-right: -6px;
+			}
+			/* IE7 */
+			.input .button.compact.last-child,
+			.input.compact .button.last-child {
+				margin-right: -6px;
+			}
+	.button.compact:active, .compact .button:active,
+	.button.compact.active, .compact .button.active {
+		padding: 1px 9px;
+		}
+		.button.compact:disabled, .button.compact.disabled,
+		.compact .button:disabled, .compact .button.disabled,
+		.compact.disabled .button, .disabled .compact .button {
+			padding: 0 8px;
+		}
+	.button-group.compact, .compact .button-group {
+		line-height: 24px;
+		height: 24px;
+		margin-top: -5px;
+		margin-bottom: -3px;
+		}
+		.button-group.compact.absolute-left, .compact .button-group.absolute-left,
+		.button-group.compact.absolute-right, .compact .button-group.absolute-right {
+			margin-top: -12px;
+		}
+	.compact > .button-icon {
+		margin: -1px 4px -1px -9px;
+		padding: 0 6px;
+		}
+		.compact > .button-icon.right-side {
+			margin: -1px -9px -1px 4px;
+		}
+
+/* Big button */
+.button.big, .big .button {
+	padding: 0 12px;
+	font-size: 14px;
+	line-height: 32px;
+	height: 32px;
+	*line-height: 30px;
+	*height: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+	.ie7 button.button.big,
+	.ie7 .big button.button {
+		line-height: 28px;
+		height: 32px;
+	}
+	.button.big.absolute-left, .big .button.absolute-left,
+	.button.big.absolute-right, .big .button.absolute-right {
+		margin-top: -17px;
+	}
+	.button.big:active, .big .button:active,
+	.button.big.active, .big .button.active,
+	.button.big:first-child:active, .big .button:first-child:active,
+	.button.big.active:first-child, .big .button.active:first-child {
+		padding: 1px 13px;
+		}
+		.button.big:disabled, .button.big.disabled,
+		.big .button:disabled, .big .button.disabled,
+		.big.disabled .button, .disabled .big .button {
+			padding: 0 12px;
+		}
+	.big > .button-icon {
+		margin: -1px 8px -1px -13px;
+		padding: 0 11px;
+		}
+		.big > .button-icon.right-side {
+			margin: -1px -13px -1px 8px;
+		}
+
+/* Huge button */
+.button.huge, .huge .button {
+	padding: 0 18px;
+	font-size: 18px;
+	line-height: 46px;
+	height: 46px;
+	*line-height: 44px;
+	*height: 44px;
+	min-width: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	}
+	.ie7 button.button.huge,
+	.ie7 .huge button.button {
+		line-height: 42px;
+		height: 46px;
+	}
+	.button.huge.absolute-left, .huge .button.absolute-left,
+	.button.huge.absolute-right, .huge .button.absolute-right {
+		margin-top: -24px;
+	}
+	.button.huge:active, .huge .button:active,
+	.button.huge.active, .huge .button.active,
+	.button.huge:first-child:active, .huge .button:first-child:active,
+	.button.huge.active:first-child, .huge .button.active:first-child {
+		padding: 1px 19px;
+		}
+		.button.huge:disabled, .button.huge.disabled,
+		.huge .button:disabled, .huge .button.disabled,
+		.huge.disabled .button, .disabled .huge .button {
+			padding: 0 18px;
+		}
+	.huge > .button-icon {
+		margin: -1px 15px -1px -19px;
+		padding: 0 18px;
+		}
+		.huge > .button-icon.right-side {
+			margin: -1px -19px -1px 15px;
+		}
+
+/* Checkable included in a button label */
+.js label.button > input[type="checkbox"],
+.js label.button > input[type="radio"] {
+	display: none;
+}
+
+/* Grouped buttons */
+.button-group {
+	display: inline-block;
+	zoom: 1;
+	font-size: 13px;
+	line-height: 30px;
+	height: 30px;
+	vertical-align: middle;
+	padding-left: 1px;
+	}
+	.ie7 .button-group {
+		display: inline;
+		margin-left: 4px;
+		}
+		.ie7 .button-group:first-child {
+			margin-left: 0;
+		}
+	p > .button-group {
+		margin-top: -8px;
+		margin-bottom: -6px;
+	}
+	.button-height .button-group {
+		margin-top: -2px;
+		margin-bottom: 2px;
+	}
+	.button-group.absolute-left,
+	.button-group.absolute-right {
+		margin-top: -15px;
+	}
+	.button-group > .button,
+	.ie7 .button-group > .button {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		float: left;
+		margin-left: -1px;
+		}
+		.button-group > .button:first-child {
+			border-left-width: 1px;
+			-webkit-border-top-left-radius: 4px;
+			-webkit-border-bottom-left-radius: 4px;
+			-moz-border-radius-topleft: 4px;
+			-moz-border-radius-bottomleft: 4px;
+			border-top-left-radius: 4px;
+			border-bottom-bottom-radius: 4px;
+		}
+		.button-group > .button:last-child {
+			-webkit-border-top-right-radius: 4px;
+			-webkit-border-bottom-right-radius: 4px;
+			-moz-border-radius-topright: 4px;
+			-moz-border-radius-bottomright: 4px;
+			border-top-right-radius: 4px;
+			border-top-right-radius: 4px;
+		}
+
+	/********************************************************/
+/*                      Fim Buttons                     */
+/********************************************************/
+
+
+
+/* =======================================================
+--------------------- CSS INPUT ---------------------
+======================================================== */	
+
+.text-dialog-medio{
+	width:183px;
+}
+
+.text-dialog-grande{
+	width:538px;
+}
+
+.select-dialog-medio{
+	width:192px;
+}
+
+.select-dialog-grande{
+	width:547px;
+}
+
+
+/* =======================================================
+--------------------- FIM CSS INPUT ---------------------
+======================================================== */	
+
+/* ==============================================================================
+--------------------- CSS TABELA CONTAS EXTRATO ------------------
+=================================================================================*/
+
+#topo_tabela_extrato_conta	{
+	/*margin-bottom: 20px;*/
+	}
+
+#topo_tabela_extrato_conta	th	{
+	height: 20px;
+	text-align: center;
+	}
+#topo_tabela_extrato_conta	.minwidth-1	{
+	min-width: 110px;
+	}
+#topo_tabela_extrato_conta td	{
+	height:10px;
+	cursor:pointer;
+	border-right: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 0px 5px 0px 5px;
+	}
+#topo_tabela_extrato_conta td.primeira_celula{
+	border-left: 1px solid #d2d2d2;
+}	
+#topo_tabela_extrato_conta tr.alternate-row	{
+	background: #ececec;
+	}	
+
+
+#tabela_extrato_conta	{
+	/*margin-bottom: 20px;*/
+	}
+
+#tabela_extrato_conta	th	{
+	height: 0px;
+	text-align: center;
+	}
+#tabela_extrato_conta	.minwidth-1	{
+	min-width: 110px;
+	}
+#tabela_extrato_conta tr.linha_extrato_conta td{
+	height:10px;
+	cursor:pointer;
+	border-right: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 0px 5px 0px 5px;
+	}
+#tabela_extrato_conta td.primeira_celula{
+	border-left: 1px solid #d2d2d2;
+}	
+#tabela_extrato_conta tr.alternate-row	{
+	background: #ececec;
+}
+
+
+/* ==============================================================================
+--------------------- FIM CSS TABELA  --------------
+=================================================================================*/

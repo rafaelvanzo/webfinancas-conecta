@@ -1,0 +1,9 @@
+12/01/2019 - 01:00:03
+cliente_id: 885
+fatura_recorrente_id: 25
+lancamento_recorrente_id: 71
+dt_vencimento: 2019-01-15
+Status: Lançamento recorrente não encontrado.
+------------------------------------------------------------------
+
+

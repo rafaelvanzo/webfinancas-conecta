@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS}s on(s)|offs()
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-z]+)\/?([a-z]+)?\/?([0-9]+)?\/?$ index.php?Controller=$1&Action=$2&Id=$3 [NC,L,QSA]

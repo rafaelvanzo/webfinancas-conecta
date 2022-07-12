@@ -1,0 +1,10 @@
+15/04/2019 - 01:00:04
+cliente_id: 191
+fatura_recorrente_id: 11
+lancamento_recorrente_id: 51
+dt_vencimento: 2019-04-25
+Status: Fatura gerada com sucesso.
+Nosso número: 141900000000000184
+------------------------------------------------------------------
+
+

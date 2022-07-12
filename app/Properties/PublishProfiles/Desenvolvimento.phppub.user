@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6FsVb066HkiRVJjBfLUF6QAAAAACAAAAAAAQZgAAAAEAACAAAABt0FZw+WJ4YRujrOgsPBA8Y/TgffRpQnKWa+vm+U/ExgAAAAAOgAAAAAIAACAAAADjPjQoPeRwPulLwkligWDLQi8kxdvcexLOybH0n7QgeyAAAAAxn+Ah6BevIPkyak2rypyFBA/VKxxhvRBYfyPVgsqpDkAAAAAbQfTKX2ERo0iifw7UY8sJzOU7e3MccnBwB5VsE+T42sHf8h4zQx9q5FpD5RVSqGjzsU9uPFmuty8OL1GirYcj</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".htaccess">
+      <publishTime>05/30/2017 14:42:37</publishTime>
+    </File>
+    <File Include="contador/Controllers/ArquivoController.php">
+      <publishTime>07/25/2017 21:13:50</publishTime>
+    </File>
+    <File Include="contador/Controllers/CarneLeaoController.php">
+      <publishTime>01/26/2018 13:28:50</publishTime>
+    </File>
+    <File Include="contador/modulos/arquivoContabil/paginas/clientes_detalhes_config.php">
+      <publishTime>08/22/2017 20:13:31</publishTime>
+    </File>
+    <File Include="contador/modulos/clientes/class/Clientes.class.php">
+      <publishTime>07/04/2017 21:25:45</publishTime>
+    </File>
+    <File Include="index.php">
+      <publishTime>02/16/2017 14:01:24</publishTime>
+    </File>
+    <File Include="lexdata/Controllers/HonorarioLexdataController.php">
+      <publishTime>07/04/2017 23:43:18</publishTime>
+    </File>
+    <File Include="lexdata/Controllers/RemessaLexdataController.php">
+      <publishTime>06/29/2017 13:52:36</publishTime>
+    </File>
+    <File Include="lexdata/Database/DbMSSql.php">
+      <publishTime>06/14/2017 23:07:01</publishTime>
+    </File>
+    <File Include="lexdata/Remessas/Geracao_Cobranca_20170519_105448.txt">
+      <publishTime>05/19/2017 14:18:02</publishTime>
+    </File>
+    <File Include="lexdata/Remessas/Geracao_Cobranca_20170519_105715.txt">
+      <publishTime>05/19/2017 14:18:02</publishTime>
+    </File>
+    <File Include="lexdata/Tests/index.php">
+      <publishTime>06/15/2017 02:23:41</publishTime>
+    </File>
+    <File Include="lexdata/Util/Curl.php">
+      <publishTime>05/16/2017 18:03:06</publishTime>
+    </File>
+    <File Include="lexdata/Util/Mascara.php">
+      <publishTime>05/19/2017 12:46:24</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/Desenvolvimento.phppub">
+      <publishTime>02/16/2017 14:01:24</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/Desenvolvimento.phppub.user">
+      <publishTime>06/08/2017 17:59:10</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/Producao.phppub">
+      <publishTime>08/31/2015 21:25:04</publishTime>
+    </File>
+    <File Include="sistema/Controllers/ArquivoController.php">
+      <publishTime>09/21/2017 14:07:16</publishTime>
+    </File>
+    <File Include="sistema/css/ui_custom.css">
+      <publishTime>09/21/2017 13:04:48</publishTime>
+    </File>
+    <File Include="sistema/js/Arquivo.js">
+      <publishTime>09/21/2017 13:03:49</publishTime>
+    </File>
+    <File Include="sistema/menu.php">
+      <publishTime>08/22/2017 19:28:47</publishTime>
+    </File>
+    <File Include="sistema/modulos/boleto/Boleto.class.php">
+      <publishTime>09/14/2017 22:04:17</publishTime>
+    </File>
+    <File Include="sistema/modulos/boleto/Remessa.class.php">
+      <publishTime>12/03/2017 17:53:59</publishTime>
+    </File>
+    <File Include="sistema/modulos/boleto/RemessaBb.class.php">
+      <publishTime>12/03/2017 17:54:49</publishTime>
+    </File>
+    <File Include="sistema/modulos/boleto/RemessaCaixa.class.php">
+      <publishTime>12/03/2017 17:54:24</publishTime>
+    </File>
+    <File Include="sistema/modulos/boleto/RemessaSicoob.class.php">
+      <publishTime>12/03/2017 17:54:36</publishTime>
+    </File>
+    <File Include="sistema/modulos/conta/class/Conta.class.php">
+      <publishTime>12/03/2017 18:04:06</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/class/Conciliacao.class.php">
+      <publishTime>09/18/2017 16:33:09</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/class/Lancamento.class.php">
+      <publishTime>01/17/2018 11:42:08</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/class/Ofx.class.php">
+      <publishTime>07/25/2017 21:02:06</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/class/Pagamento.class.php">
+      <publishTime>11/22/2017 01:11:32</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/class/Programacao.class.php">
+      <publishTime>08/31/2017 01:11:15</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/class/Recebimento.class.php">
+      <publishTime>11/21/2017 02:08:03</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/class/Transferencia.class.php">
+      <publishTime>11/21/2017 23:59:46</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/js/funcoes_cnlc.js">
+      <publishTime>09/18/2017 16:37:04</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/php/funcoes.php">
+      <publishTime>01/17/2018 11:36:03</publishTime>
+    </File>
+    <File Include="sistema/modulos/lancamento/php/funcoes_cnlc.php">
+      <publishTime>07/25/2017 11:40:19</publishTime>
+    </File>
+    <File Include="sistema/modulos/planejamento/js/funcoes_orct.js">
+      <publishTime>11/07/2017 20:50:42</publishTime>
+    </File>
+    <File Include="sistema/modulos/planejamento/paginas/orcamentos.php">
+      <publishTime>11/07/2017 20:57:24</publishTime>
+    </File>
+    <File Include="sistema/modulos/planoContas/js/funcoes.js">
+      <publishTime>08/16/2017 14:49:23</publishTime>
+    </File>
+    <File Include="sistema/modulos/programacao/class/Recorrencia.class.php">
+      <publishTime>08/31/2017 03:31:34</publishTime>
+    </File>
+    <File Include="sistema/modulos/relatorios/class/Relatorio.class.php">
+      <publishTime>10/04/2017 18:28:01</publishTime>
+    </File>
+    <File Include="sistema/modulos/usuario/class/Usuario.class.php">
+      <publishTime>10/04/2017 18:24:20</publishTime>
+    </File>
+    <File Include="sistema/modulos/usuario/js/funcoes_usuarios.js">
+      <publishTime>01/23/2018 23:45:02</publishTime>
+    </File>
+    <File Include="sistema/modulos/usuario/php/funcoes.php">
+      <publishTime>10/04/2017 18:24:03</publishTime>
+    </File>
+    <File Include="sistema/php/Route.php">
+      <publishTime>06/15/2017 02:00:53</publishTime>
+    </File>
+    <File Include="sistema/Views/Arquivo/Index.php">
+      <publishTime>09/21/2017 13:10:17</publishTime>
+    </File>
+    <File Include="sistema/Views/Honorario/Index.php">
+      <publishTime>06/08/2017 17:56:45</publishTime>
+    </File>
+    <File Include="testes/index.php">
+      <publishTime>11/16/2017 14:30:59</publishTime>
+    </File>
+    <File Include="ws/Controllers/DocumentoController.php">
+      <publishTime>11/16/2017 14:28:20</publishTime>
+    </File>
+    <File Include="ws/Controllers/LancamentoController.php">
+      <publishTime>07/31/2017 19:57:27</publishTime>
+    </File>
+    <File Include="ws/Controllers/RegistroController.php">
+      <publishTime>07/20/2017 15:40:10</publishTime>
+    </File>
+    <File Include="ws/Models/Documento.php">
+      <publishTime>06/26/2017 14:28:24</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties" />
+  </ItemGroup>
+</Project>
